@@ -83,24 +83,10 @@
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">publications</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
-                </div>
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -131,7 +117,10 @@
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           <span class="font-weight-bold">Yaming</span>  Guo
+            <span style="font-weight: 500">Yaming</span>
+              
+              Guo  <br class="d-md-none">(郭
+                <span style="font-weight: 500">亚明</span>)
           </h1>
           <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.</p>
         </header>
@@ -180,14 +169,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 <tr>
                   <th scope="row">Jun 1, 2023</th>
                   <td>
-                    Our paper accepted by Ocean Engineering!
+                    Our paper entitled ``Toward Multimodal Vessel Trajectory Prediction by Modeling the Distribution of Modes was accepted to Ocean Engineering!
 
                   </td>
                 </tr>
                 <tr>
                   <th scope="row">Apr 25, 2023</th>
                   <td>
-                    Our paper accepted at ICML 2023!
+                    Our paper entitled ``Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships’’ was accepted to ICML 2023!
 
                   </td>
                 </tr>
@@ -204,7 +193,23 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/Preview_guo2023out.pdf-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/Preview_guo2023out.pdf-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/Preview_guo2023out.pdf-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/Preview_guo2023out.pdf" class="preview z-depth-1 rounded" width="auto" height="auto" alt="Preview_guo2023out.pdf" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="guo2023out" class="col-sm-8">
@@ -241,6 +246,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/Paper_guo2023out.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/YamingGuo98/FedIIR" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="/assets/pdf/Poster_guo2023out.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
           </div>
           
           <div class="badges">
@@ -248,7 +257,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Out-of-distribution generalization is challenging for non-participating clients of federated learning under distribution shifts. A proven strategy is to explore those invariant relationships between input and target variables, working equally well for non-participating clients. However, learning invariant relationships is often in an explicit manner from data, representation, and distribution, which violates the federated principles of privacy-preserving and limited communication. In this paper, we propose \textscFedIIR, which implicitly learns invariant relationships from parameter for out-of-distribution generalization, adhering to the above principles. Specifically, we utilize the prediction disagreement to quantify invariant relationships and implicitly reduce it through inter-client gradient alignment. Theoretically, we demonstrate the range of non-participating clients to which \textscFedIIR is expected to generalize and present the convergence results for \textscFedIIR in the massively distributed with limited communication. Extensive experiments show that \textscFedIIR significantly outperforms relevant baselines in terms of out-of-distribution generalization of federated learning.</p>
+          </div>
         </div>
       </div>
 </li></ol>
