@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper entitled ``Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships'' was accepted to ICML 2023!
+Our paper entitled "Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships" was accepted to ICML 2023!

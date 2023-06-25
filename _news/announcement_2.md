@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper entitled ``Toward Multimodal Vessel Trajectory Prediction by Modeling the Distribution of Modes was accepted to Ocean Engineering!
+Our paper entitled "Toward Multimodal Vessel Trajectory Prediction by Modeling the Distribution of Modes" was accepted to Ocean Engineering!

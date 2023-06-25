@@ -5,12 +5,16 @@
 
 @article{guo2023toward,
   title={Toward Multimodal Vessel Trajectory Prediction by modeling the distribution of modes},
+  abstract={Vessel trajectory prediction using AIS data plays an important role in maritime navigation warning and safety. A key aspect of trajectory prediction is multimodal because of the uncertainty of vessel behavior. However, complex trajectory modes are difficult to be learned from low-dimensional AIS data with noise. \siyang{In this paper, we propose a new method for multimodal vessel trajectory prediction, called Multimodal Vessel Trajectory Prediction via Modes Distribution Modeling (VT-MDM). This approach addresses the above challenges by introducing additional hiding regimes to characterize complex trajectory modes independently.} Specifically, we introduce an additional latent vector as the encoding of the trajectory modes, which is randomly sampled from a multivariate Gaussian distribution to generate multiple predicted trajectories. \siyang{To enable this Gaussian distribution for capturing the vessel trajectory modes, we use adversarial learning to enforce all its realizations to generate realistic predicted trajectories.} Furthermore, we also encourage the mapping between the latent vectors of the modes and the predicted trajectories to be invertible and smooth, which prompts VT-MDM to produce truly and gradually multimodal predicted trajectories. Experiments on the real AIS dataset show that our method is capable of multimodal trajectory prediction with high accuracy.},
   author={Guo, Siyang and Zhang, Hui and Guo, Yaming},
   journal={Ocean Engineering},
   volume={282},
   pages={115020},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  preview="Preview_guo2023toward.png",
+  pdf={Paper_guo2023toward.pdf},
+  bibtex_show={true}
 }
 
 @article{guo2023out,
@@ -19,9 +23,10 @@
   author={Guo, Yaming and Guo, Kai and Cao, Xiaofeng and Wu, Tieru and Chang, Yi},
   booktitle={International Conference on Machine Learning},
   year={2023},
+  preview="Preview_guo2023out.png",
   pdf="Paper_guo2023out.pdf",
-  poster="Poster_guo2023out.pdf",
-  preview="Preview_guo2023out.pdf",
   code="https://github.com/YamingGuo98/FedIIR",
+  poster="Poster_guo2023out.pdf",
+  bibtex_show={true},
   selected={true}
 }
