@@ -151,7 +151,7 @@
           </div>
 
           <div class="clearfix">
-            <p>Hello, I’m Yaming! I am a master’s student in the School of Artificial Intelligence of Jilin University, interested in Federated Learning, Out-of-distribution, and Continuous Learning.</p>
+            <p>Hello, I’m Yaming! I am a master’s student in the School of Artificial Intelligence at Jilin University, interested in developing mathematical to better understand artificial neural networks. I’m also interested in Learning Theory, Optimization Theory, and Statistical Theory. All my research is driven by my curiosity.</p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
@@ -163,9 +163,23 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- News -->
           <h2><a href="/news/" style="color: inherit;">news</a></h2>          <div class="news">
-            <div class="table-responsive">
+            <div class="table-responsive" style="max-height: 60vw">
               <table class="table table-sm table-borderless">
               
+                <tr>
+                  <th scope="row">Nov 15, 2024</th>
+                  <td>
+                    Our paper entitled “Mitigating Update Conflict in Non-IID Federated Learning via Orthogonal Class Gradients” was accepted to IEEE Transactions on Mobile Computing!
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Sep 26, 2024</th>
+                  <td>
+                    Our paper entitled “OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation” was accepted to NeurIPS 2024!
+
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">Jun 1, 2023</th>
                   <td>
@@ -190,7 +204,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"><li>
+            <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 preview">
@@ -273,7 +288,92 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/Preview_guo2024ot4p-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/Preview_guo2024ot4p-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/Preview_guo2024ot4p-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/Preview_guo2024ot4p.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="Preview_guo2024ot4p.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="guo2024ot4p" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Yaming Guo</em>, Chen Zhu, Hengshu Zhu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Tieru Wu' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em></em> 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/Paper_guo2024ot4p.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/YamingGuo98/OT4P" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="/assets/pdf/Poster_guo2024ot4p.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Optimization over permutations is typically an NP-hard problem that arises extensively in sorting, matching, tracking, etc. Birkhoff polytope-based relaxation methods have made significant advancements, particularly in penalty-free optimization and probabilistic inference. Relaxation onto the orthogonal group offers unique potential advantages such as a lower representation dimension and preservation of inner products; however, equally effective approaches remain unexplored. To bridge the gap, we present a temperature-controlled differentiable transformation that maps unconstrained vector space to the orthogonal group, where the temperature, in the limit, concentrates orthogonal matrices near permutation matrices. This transformation naturally implements a parameterization for the relaxation of permutation matrices, allowing for gradient-based optimization of problems involving permutations. Additionally, by deriving a re-parameterized gradient estimator, this transformation also provides efficient stochastic optimization over the latent permutations. Extensive experiments involving the optimization over permutation matrices validate the effectiveness of the proposed method.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">guo2024ot4p</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Guo, Yaming and Zhu, Chen and Zhu, Hengshu and Wu, Tieru}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
 
@@ -304,7 +404,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Yaming  Guo. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2024 Yaming  Guo. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
