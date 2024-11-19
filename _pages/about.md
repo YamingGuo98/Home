@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I’m Yaming! I am a master's student in the School of Artificial Intelligence of Jilin University, interested in Federated Learning, Out-of-distribution, and Continuous Learning.
+Hello, I’m Yaming! I am a master’s student in the School of Artificial Intelligence at Jilin University, interested in developing mathematical to better understand artificial neural networks. I'm also interested in Learning Theory, Optimization Theory, and Statistical Theory. All my research is driven by my curiosity.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
